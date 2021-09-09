@@ -1,15 +1,11 @@
-//import logo from './logo.svg';
-//import './App.css';
+import "./App.css";
+
+import MainHeader from "./components";
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <a href="#">Gmail</a>
-        <a href="#">Images</a>
-        <a href="#">Icon placeholder</a>
-        <a href="#">Profile pic placeholder</a>
-      </header>
+    <>
+      <MainHeader />
       <main>
         <p>Google logo</p>
         <input type="text" name="" id="" />
@@ -31,7 +27,7 @@ function App() {
           <a href="#">Settings</a>
         </div>
       </footer>
-    </div>
+    </>
   );
 }
 
