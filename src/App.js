@@ -3,6 +3,7 @@ import BigLogo from "./components/BigLogo";
 import styled from "styled-components";
 
 import MainHeader from "./components/MainHeader";
+import SearchArea from "./components/SearchArea";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <MainHeader />
       <MainWrapper>
         <BigLogo />
-        <input type="text" name="" id="" />
+        <SearchArea />
         <div>
           <button>Google Search</button>
           <button>I'm Feeling Lucky</button>
