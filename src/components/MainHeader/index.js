@@ -13,7 +13,7 @@ const MainHeader = () => {
           <AppsIcon />
         </BackgroundWrapper>
       </a>
-      <a href="https://github.com/edumt" target="_blank">
+      <a href="https://github.com/edumt" target="_blank" rel="noreferrer">
         <BackgroundWrapper>
           <ProfilePic src={profilePicPath} alt="" />
         </BackgroundWrapper>

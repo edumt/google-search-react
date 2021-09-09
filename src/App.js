@@ -1,4 +1,6 @@
 import "./App.css";
+import BigLogo from "./components/BigLogo";
+import styled from "styled-components";
 
 import MainHeader from "./components/MainHeader";
 
@@ -6,14 +8,14 @@ function App() {
   return (
     <>
       <MainHeader />
-      <main>
-        <p>Google logo</p>
+      <MainWrapper>
+        <BigLogo />
         <input type="text" name="" id="" />
         <div>
           <button>Google Search</button>
           <button>I'm Feeling Lucky</button>
         </div>
-      </main>
+      </MainWrapper>
       <footer>
         <div>
           <a href="#">About</a>
@@ -32,3 +34,10 @@ function App() {
 }
 
 export default App;
+
+const MainWrapper = styled.main`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
