@@ -7,7 +7,7 @@ import SearchArea from "./components/SearchArea";
 
 function App() {
   return (
-    <>
+    <AppWrapper>
       <MainHeader />
       <MainWrapper>
         <BigLogo />
@@ -30,15 +30,23 @@ function App() {
           <a href="#">Settings</a>
         </div>
       </footer>
-    </>
+    </AppWrapper>
   );
 }
 
 export default App;
 
 const MainWrapper = styled.main`
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+`;
+
+const AppWrapper = styled.div`
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 `;

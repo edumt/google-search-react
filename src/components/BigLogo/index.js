@@ -10,5 +10,5 @@ export default BigLogo;
 const Logo = styled.img`
   max-width: 272px;
   width: 50%;
-  margin-top: 15vh;
+  margin-top: 20vh;
 `;

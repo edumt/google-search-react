@@ -18,7 +18,7 @@ export default SearchArea;
 
 const SearchWrapper = styled.div`
   max-width: 580px;
-  width: 80%;
+  width: 90%;
   height: 45px;
   margin: 25px 0;
 
