@@ -3,10 +3,15 @@ import SearchIcon from "@material-ui/icons/Search";
 import MicIcon from "@material-ui/icons/Mic";
 
 const SearchArea = () => {
+  const focusInput = () => document.getElementById("input-area").focus();
+
   return (
     <SearchWrapper>
-      <SearchIcon style={{ color: "#9AA0A6", margin: "0 12px" }} />
-      <Input type="text" name="" id="" />
+      <SearchIcon
+        style={{ color: "#9AA0A6", margin: "0 12px" }}
+        onClick={focusInput}
+      />
+      <Input type="text" name="" id="input-area" />
       <MicIcon
         style={{ color: "#4285F4", margin: "0 12px", cursor: "pointer" }}
       />
@@ -35,4 +40,5 @@ const SearchWrapper = styled.div`
 
 const Input = styled.input`
   width: 100%;
+  height: 100%;
 `;
