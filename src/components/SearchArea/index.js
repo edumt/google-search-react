@@ -5,10 +5,10 @@ import MicIcon from "@material-ui/icons/Mic";
 const SearchArea = () => {
   return (
     <SearchWrapper>
-      <SearchIcon style={{ color: "#9AA0A6", margin: "0 10px" }} />
+      <SearchIcon style={{ color: "#9AA0A6", margin: "0 12px" }} />
       <Input type="text" name="" id="" />
       <MicIcon
-        style={{ color: "#4285F4", margin: "0 10px", cursor: "pointer" }}
+        style={{ color: "#4285F4", margin: "0 12px", cursor: "pointer" }}
       />
     </SearchWrapper>
   );

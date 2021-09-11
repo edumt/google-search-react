@@ -6,9 +6,9 @@ import profilePicPath from "../../assets/profile-pic.jpeg";
 const MainHeader = () => {
   return (
     <HeaderWrapper>
-      <a href="#">Gmail</a>
-      <a href="#">Images</a>
-      <a href="#">
+      <a href="#root">Gmail</a>
+      <a href="#root">Images</a>
+      <a href="#root">
         <BackgroundWrapper>
           <AppsIcon />
         </BackgroundWrapper>
