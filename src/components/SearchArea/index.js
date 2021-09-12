@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import SearchIcon from "@material-ui/icons/Search";
 import MicIcon from "@material-ui/icons/Mic";
+//import MicIconPath from "../../assets/google-microphone.png"
 
 const SearchArea = () => {
   const focusInput = () => document.getElementById("input-area").focus();

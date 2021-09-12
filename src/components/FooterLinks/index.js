@@ -26,17 +26,21 @@ export default FooterLinks;
 
 const FooterWrapper = styled.footer`
   display: flex;
-  flex-direction: column;
   background-color: #eee;
+  justify-content: space-evenly;
 
-  @media (min-width: 700px) {
-    flex-direction: row;
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
+
+  @media (min-width: 1200px) {
     justify-content: space-between;
   }
 `;
 
 const LinksWrapper = styled.nav`
   padding: 15px;
+  margin: 0 10px;
   display: flex;
   justify-content: center;
   font-size: 15px;

@@ -1,4 +1,3 @@
-import "./App.css";
 import styled from "styled-components";
 
 import MainHeader from "./components/MainHeader";
@@ -23,7 +22,3 @@ const AppWrapper = styled.div`
   flex-direction: column;
   justify-content: space-between;
 `;
-
-/* const ButtonsWrapper = styled.div`
-  // maybe display as columns on small screens
-`; */
