@@ -1,7 +1,6 @@
-import AppsIcon from "@material-ui/icons/Apps";
 import styled from "styled-components";
-
-import profilePicPath from "../../assets/profile-pic.jpeg";
+import AppsIcon from "@material-ui/icons/Apps";
+import ProfilePic from "../../../components/ProfilePic";
 
 const MainHeader = () => {
   return (
@@ -15,7 +14,7 @@ const MainHeader = () => {
       </a>
       <a href="https://github.com/edumt" target="_blank" rel="noreferrer">
         <BackgroundWrapper>
-          <ProfilePic src={profilePicPath} alt="" />
+          <ProfilePic alt="" />
         </BackgroundWrapper>
       </a>
     </HeaderWrapper>
@@ -51,10 +50,4 @@ const BackgroundWrapper = styled.div`
   :hover {
     background-color: #eee;
   }
-`;
-
-const ProfilePic = styled.img`
-  border-radius: 50%;
-  width: 35px;
-  height: 35px;
 `;

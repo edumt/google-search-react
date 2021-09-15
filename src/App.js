@@ -1,24 +1,13 @@
-import styled from "styled-components";
-
-import MainHeader from "./components/MainHeader";
-import MainSection from "./components/MainSection";
-import FooterLinks from "./components/FooterLinks";
+import NoSearch from "./pages/NoSearch";
+import Searched from "./pages/Searched";
 
 function App() {
-  return (
-    <AppWrapper>
-      <MainHeader />
-      <MainSection />
-      <FooterLinks />
-    </AppWrapper>
-  );
+  const testSearch = true;
+
+  return testSearch ? <Searched /> : <NoSearch />;
 }
 
 export default App;
 
-const AppWrapper = styled.div`
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-`;
+// todo: better organize components folders
+// prob refactor some components to be more modular

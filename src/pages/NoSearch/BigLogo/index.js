@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import google from "../../assets/logo.png";
+import google from "./logo.png";
 
 const BigLogo = () => {
   return <Logo src={google} />;

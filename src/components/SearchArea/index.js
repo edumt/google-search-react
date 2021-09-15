@@ -4,6 +4,7 @@ import MicIcon from "@material-ui/icons/Mic";
 //import MicIconPath from "../../assets/google-microphone.png"
 
 const SearchArea = () => {
+  //todo: autofocus, maybe autofocus on render with useeffect hook
   const focusInput = () => document.getElementById("input-area").focus();
 
   return (

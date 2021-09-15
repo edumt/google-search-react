@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { useMediaQuery } from "react-responsive";
 
 import BigLogo from "../BigLogo";
-import SearchArea from "../SearchArea";
+import SearchArea from "../../../components/SearchArea";
 import SearchButtons from "../SearchButtons";
 
 const MainSection = () => {
